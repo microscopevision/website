@@ -1,0 +1,49 @@
+{
+  "title": "Microscope Vision",
+  "name": "MVWebSite",
+  "version": "1.0.0",
+  "description": "One page website to describe microscope vision band",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template",
+    "microscope vision",
+    "pop-rock",
+    "pop",
+    "indie"
+  ],
+  "homepage": "http://microscopevision.com",
+  "bugs": {
+    "url": "",
+    "email": "microscope.visionband@gmail.com"
+  },
+  "license": "",
+  "author": "Andrea Valenziano",
+  "contributors": [
+    ""
+  ],
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0",
+    "font-awesome": "4.7.0",
+    "i18next": "^10.5.1",
+    "jquery": "3.3.1",
+    "jquery.easing": "^1.4.1",
+    "jquery.lazy": "1.7.6"
+  },
+  "devDependencies": {
+    "browser-sync": "2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.9.2",
+    "gulp-header": "2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "3.0.0"
+  }
+}
