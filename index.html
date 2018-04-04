@@ -20,6 +20,9 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
+  <!-- swiper -->
+  <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
+
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">
 
@@ -173,7 +176,7 @@
   <!-- Photos Section -->
   <section id="photos" class="download-section content-section text-center">
     <div class="container">
-      <div id="carouselGallery" class="carousel slide" data-ride="carousel">
+      <!-- <div id="carouselGallery" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselGallery" data-slide-to="0" class="active"></li>
           <li data-target="#carouselGallery" data-slide-to="1"></li>
@@ -202,9 +205,27 @@
             <img class="lazy d-block w-100" data-src="img/slideshow/mv6.jpg" alt="Third slide">
           </div>
         </div>
+      </div> -->
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img class="lazy d-block w-100" data-src="img/slideshow/mv1.jpg" ></div>
+          <div class="swiper-slide"><img class="lazy d-block w-100" data-src="img/slideshow/mv2.jpg"></div>
+          <div class="swiper-slide"><img class="lazy d-block w-100" data-src="img/slideshow/mv3.jpg"></div>
+          <div class="swiper-slide"><img class="lazy d-block w-100" data-src="img/slideshow/mv4.jpg"></div>
+          <div class="swiper-slide"><img class="lazy d-block w-100" data-src="img/slideshow/mv5.jpg"></div>
+          <div class="swiper-slide"><img class="lazy d-block w-100" data-src="img/slideshow/mv6.jpg"></div>
+        </div>
+        <!-- Add pagination -->
+        <div class="swiper-pagination"></div>
+
       </div>
     </div>
   </section>
+
+
 
   <!-- Footer -->
   <footer>
@@ -256,6 +277,9 @@
 
   <!-- jquery lazy -->
   <script src="js/jquery.lazy-master/jquery.lazy.min.js"></script>
+
+  <!--swiper-->
+  <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/index.js"></script>
